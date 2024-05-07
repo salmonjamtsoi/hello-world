@@ -1,0 +1,75 @@
+{
+    "Reactions": [
+        {
+            "Reaction1": "CH3CH2CH3+#+#<->CH3CHCH3#+H#"
+        },
+        {
+            "Reaction2": "CH3CH2CH3+#+#<->CH3CH2CH2#+H#"
+        },
+        {
+            "Reaction3": "CH3CH2CH2#+#<->CH3CH2CH#+H# "
+        },
+        {
+            "Reaction4": "CH3CH2CH2#+#<->CH3CHCH2#+H# "
+        }
+        ,
+        {
+            "Reaction5": "CH3CH2CH2#+#<->CH2CH2CH2#+H# "
+        }
+        ,
+        {
+            "Reaction6": "CH3CHCH3#+#<->CH3CCH3#+H#"
+        }
+        ,
+        {
+            "Reaction7": "CH3CHCH3#+#<->CH3CHCH2#+H#"
+        }
+        ,
+        {
+            "Reaction8": "H2+#+#<->H#+H#"
+        }
+        ,
+        {
+            "Reaction9": "CH3CHCH2#<->CH3CHCH2+#"
+        }
+    ],
+    "Ea": [
+        0.07,
+        0.03,
+        -0.24,
+        -0.51,
+        0.87,
+        -2.02,
+        0.27,
+        -1.46,
+        0.77
+    ],
+    "G0": [
+        -1.47,
+        -1.65,
+        -2.29,
+        -1.62,
+        -1.14,
+        -3.60,
+        -1.80,
+        -2.59,
+        0.84
+    ],
+    "ReactionConditions": [
+        {
+            "Q0": [
+                1
+            ],
+            "P_CH3CH2CH3": 0.45,
+            "P_CH3CHCH2": 0.1125,
+            "P_H2": 0.000113,
+            "T": 873,
+            "DRC": true
+        }
+    ],
+    "InitialConditions": [
+        {
+            "Q_v": 1
+        }
+    ]
+}
