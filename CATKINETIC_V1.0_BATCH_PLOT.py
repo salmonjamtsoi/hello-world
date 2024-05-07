@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 import time
 
-#start_time = time.time()
+start_time = time.time()
 
 open('Output_Scaling.csv', 'w').close()
 params = pd.read_excel('INPUT_Scaling.xlsx')
